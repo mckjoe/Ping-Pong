@@ -1,9 +1,11 @@
-// Contents of outputTexts will be displayed in the html after going through a forEach() loop and appended to a ul called "unstyled"
+// biz loj;
+// -----------------
+
+    // Contents of outputTexts will be displayed in the html after going through a forEach() loop and appended to a ul called "unstyled"
 var outputTexts = [];
 
- // This function creates an array from 1 - userinput.
+    // This function creates an array from 1 - userinput.
 var count = function(userInput) {
-
   var digits = [];
   for (var i = 1; i <= userInput; i++) {
     digits.push(i);
@@ -11,7 +13,7 @@ var count = function(userInput) {
   return digits
 }
 
-// This function runs conditions to see what to push into outputTexts.
+    // This function runs conditions to see what to push into outputTexts.
 var conditions = function(results) {
   results.forEach(function(result) {
     if (result % 15 === 0) {
@@ -26,6 +28,8 @@ var conditions = function(results) {
   });
 }
 
+// UserInterface Loj
+// -------------------------
 
 $(document).ready(function() {
   $("#input").submit(function(event) {
