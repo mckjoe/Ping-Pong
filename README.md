@@ -1,6 +1,7 @@
 # Ping - Pong - PingPong, Nov 10th, 2017.
 
-## This appliccation will get a number from a person and will return a bunch of numbers up to their number from one and replace some of them with "ping", some with "pong", and some with "pingpong".
+## Welcome!
+_This appliccation will get a number from a person and will return a bunch of numbers up to their number from one and replace some of them with "ping", some with "pong", and some with "pingpong"._
 
 #### By Joseph McKinney
 
