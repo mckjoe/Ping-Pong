@@ -4,9 +4,11 @@
 
 #### By Joseph McKinney
 
-## This app revieves a number from a user, and then runs a function on that number to create an array of numbers from 1 through the input number, and then goes through that array of numbers, changing anything divisable evenly by 3 with the word "ping", anything divisable evenly by 5 with the word "pong", and anything divisible evenly by 15 with the word "pingpong" and will display it for the user in the html, each number or word as a list element.
+## What's it do?
+_This app recieves a number from a user, and then runs a function on that number to create an array of numbers from 1 through the input number, and then goes through that array of numbers with another function, changing anything divisible evenly by 3 to the word "ping", anything divisible evenly by 5 to the word "pong", and anything divisible evenly by 15 to the word "pingpong" (breath) and will display it for the user in the html, each number or word as a list element._
 
-## To view this page click on the gh-pages link, or to load the entire program directory to your computer.
+## To view this page
+ _click on the gh-pages link, or to load the entire program directory to your computer:_
 
 * _clone the repository to your desktop_
 * _double click on the shortcut on your desktop_
@@ -18,17 +20,18 @@
 * _cd into ping-pong directory_
 * _type "atom ."_
 
-## There are know non bugs at this time
+## Bugs?
+_There are know non bugs at this time_
 
 ## support and contact info
 
-_If you need to reach me just hit me on my pager_
+_If you need to reach me just hit me on my pager, or send me an e-mail.  My E-mail address should be on file with the school._
 
 ## techhnologies used
-_This program was written using html, css, JavaScript, and markdown.
+_This program was written using html, css, JavaScript, and markdown._
 
 ## Check the gh-pages link
-
+www.mckjoe.github.io/ping-pong
 
 ## development steps
 
@@ -40,3 +43,6 @@ _This program was written using html, css, JavaScript, and markdown.
 |Recognize when input % 5 === 0 | 5 | true|
 |Recognize when input % 15 === 0 | 15| true|
 |recognize non numerical input| hello |"please enter a number"|
+
+## Liscense terms
+_This program is liscensed under the MIT Liscensing agreement.  For more information on the liscensing, call me or check out the details on google.   
