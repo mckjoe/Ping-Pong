@@ -1,4 +1,31 @@
 #output {
   display: none;
 }
- 
+
+.form-group {
+  border: 1px solid #A3183D;
+  padding: 10px;
+  margin: 10px;
+  color: #2B62A5;
+}
+
+body {
+  background-image: url('https://www.thestar.com/content/dam/thestar/entertainment/movies/2012/11/22/ping_pong_review_octogenarian_athletes_inspire/pingpong.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h2 {
+  color: #A3183D;
+  text-align: center;
+}
+
+button {
+  background-color: #2B62A5;
+  color: #A3183D;
+}
+
+ul {
+  color: #A3183D 
+}

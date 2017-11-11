@@ -3,6 +3,7 @@ var outputTexts = [];
 
  // This function creates an array from 1 - userinput.
 var count = function(userInput) {
+
   var digits = [];
   for (var i = 1; i <= userInput; i++) {
     digits.push(i);
@@ -10,7 +11,7 @@ var count = function(userInput) {
   return digits
 }
 
-// This function runs conditions to see what to push into outputTexts
+// This function runs conditions to see what to push into outputTexts.
 var conditions = function(results) {
   results.forEach(function(result) {
     if (result % 15 === 0) {
@@ -28,10 +29,9 @@ var conditions = function(results) {
 
 $(document).ready(function() {
   $("#input").submit(function(event) {
-    event.preventDefault();
     var userInput = parseInt($("#userInput").val());
     var results = count(userInput);
-    var output = conditions(results);
+    var output = conditions(results); //output is undefined because I didn't need a return value
 
     // for each function will append individul items to the "unstyled list"
     outputTexts.forEach(function(outputText) {
@@ -39,6 +39,9 @@ $(document).ready(function() {
 
     });
     // makes the hidden div show for the users delight
+    $("#initShowing").hide();
     $("#output").show();
+
+    event.preventDefault();
   });
 });
