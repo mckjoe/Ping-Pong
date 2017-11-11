@@ -4,6 +4,9 @@
     // Contents of outputTexts will be displayed in the html after going through a forEach() loop and appended to a ul called "unstyled"
 var outputTexts = [];
 
+var number = function(userInput) {
+  alert(typeof userInput)
+  }
     // This function creates an array from 1 - userinput.
 var count = function(userInput) {
   var digits = [];
@@ -27,13 +30,21 @@ var conditions = function(results) {
     }
   });
 }
+var checkInput = function(startInput){
+  var x = startInput;
+  if (isNaN(x)) {
+    alert("Must input numbers!");
+  }
+}
 
 // UserInterface Loj
 // -------------------------
 
 $(document).ready(function() {
   $("#input").submit(function(event) {
-    var userInput = parseInt($("#userInput").val());
+    var startInput = $("#userInput").val();
+    checkInput(startInput);
+    var userInput = parseInt(startInput);
     var results = count(userInput);
     var output = conditions(results); //output is undefined because I didn't need a return value
 
