@@ -33,9 +33,11 @@ var conditions = function(results) {
 var checkInput = function(startInput){
   var x = startInput;
   if (isNaN(x)) {
-    alert("Must input numbers!");
+    alert("Must input numbers!")
+    location.reload();
   }
 }
+
 
 // UserInterface Loj
 // -------------------------
@@ -43,20 +45,22 @@ var checkInput = function(startInput){
 $(document).ready(function() {
   $("#input").submit(function(event) {
     var startInput = $("#userInput").val();
-    checkInput(startInput);
     var userInput = parseInt(startInput);
+    checkInput(startInput);
     var results = count(userInput);
     var output = conditions(results); //output is undefined because I didn't need a return value
 
     // for each function will append individul items to the "unstyled list"
     outputTexts.forEach(function(outputText) {
-      $("#unstyled").append("<li>" + outputText);
-
+      $("#unstyled").append("<li>" + outputText + "</li>");
     });
     // makes the hidden div show for the users delight
     $("#initShowing").hide();
-    $("#output").show();
+    $(".row").show();
 
     event.preventDefault();
+  });
+  $("#tryAgain").click(function() {
+    location.reload();
   });
 });

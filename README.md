@@ -43,7 +43,7 @@ www.mckjoe.github.io/ping-pong
 |recognize when input % 3 === 0 | 3 | true|
 |Recognize when input % 5 === 0 | 5 | true|
 |Recognize when input % 15 === 0 | 15| true|
-|recognize non numerical input| hello |"please enter a number"|
+|recognize non numerical input| hello |"please enter a number!"|
 
 ## Liscense terms
 _This program is liscensed under the MIT Liscensing agreement.  For more information on the liscensing, call me or check out the details on google.   
