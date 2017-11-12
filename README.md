@@ -32,7 +32,7 @@ _If you need to reach me just hit me on my pager, or send me an e-mail.  My E-ma
 _This program was written using html, css, JavaScript, and markdown._
 
 ## Check the gh-pages link
-www.mckjoe.github.io/ping-pong
+https://mckjoe.github.io/ping-pong/
 
 ## development steps
 
